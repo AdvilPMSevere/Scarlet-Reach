@@ -118,7 +118,7 @@
 	name = "leather trousers"
 	armor = ARMOR_PANTS_LEATHER
 	icon_state = "leathertrou"
-	prevent_crits = list(BCLASS_CUT, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_BLUNT)
 	max_integrity = 150
 	resistance_flags = FIRE_PROOF
 	salvage_result = /obj/item/natural/hide/cured
@@ -131,7 +131,7 @@
 	icon_state = "roguepants"
 	item_state = "roguepants"
 	sewrepair = TRUE
-	prevent_crits = list(BCLASS_CUT, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_CHOP, BCLASS_BLUNT)
 	armor = ARMOR_LEATHER_GOOD
 	sellprice = 18
 	blocksound = SOFTHIT
@@ -149,7 +149,7 @@
 	being less protective than full trousers."
 	icon_state = "rogueshorts"
 	item_state = "rogueshorts"
-	prevent_crits = list(BCLASS_CUT, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_CHOP, BCLASS_BLUNT)
 	body_parts_covered = GROIN
 
 /obj/item/clothing/under/roguetown/heavy_leather_pants/otavan
