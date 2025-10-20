@@ -57,7 +57,7 @@
 	desc = ""
 	icon_state = "angle"
 	armor = ARMOR_GLOVES_LEATHER_GOOD
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_BLUNT)
 	resistance_flags = FIRE_PROOF
 	blocksound = SOFTHIT
 	max_integrity = 300
@@ -156,7 +156,7 @@
 	icon_state = "fencergloves"
 	item_state = "fencergloves"
 	armor = ARMOR_GLOVES_CHAIN
-	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT)
 	resistance_flags = FIRE_PROOF
 	blocksound = SOFTHIT
 	max_integrity = 250
@@ -180,7 +180,7 @@
 	desc = ""
 	icon_state = "gauntlets"
 	armor = ARMOR_GLOVES_PLATE
-	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT)
 	resistance_flags = FIRE_PROOF
 	blocksound = PLATEHIT
 	max_integrity = 300
@@ -287,7 +287,7 @@
 	icon_state = "bplategloves"
 	item_state = "bplategloves"
 	armor = ARMOR_PLATE_BSTEEL
-	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT,)
 	resistance_flags = FIRE_PROOF
 	blocksound = PLATEHIT
 	max_integrity = 400
@@ -305,7 +305,7 @@
 	icon_state = "bkgloves"
 	item_state = "bkgloves"
 	armor = ARMOR_PLATE_BSTEEL
-	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CHOP, BCLASS_CUT, BCLASS_BLUNT,)
 	resistance_flags = FIRE_PROOF
 	blocksound = PLATEHIT
 	max_integrity = 400
