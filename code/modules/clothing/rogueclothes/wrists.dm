@@ -34,7 +34,7 @@
 	item_state = "bracers"
 	max_integrity = 300
 	armor = ARMOR_BOOTS_PLATED
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT,)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT)
 	blocksound = PLATEHIT
 	resistance_flags = FIRE_PROOF
 
@@ -108,7 +108,7 @@
 	item_state = "lbracers"
 	max_integrity = 250
 	armor = ARMOR_LEATHER
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_BLUNT,)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_BLUNT)
 	blocksound = SOFTHIT
 	blade_dulling = DULLING_BASHCHOP
 	break_sound = 'sound/foley/cloth_rip.ogg'
@@ -209,7 +209,7 @@
 	icon_state = "carapace_bracers"
 	item_state = "carapace_bracers"
 	armor = list("blunt" = 70, "slash" = 70, "stab" = 60, "piercing" = 50, "fire" = 30, "acid" = 0)
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT,)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT)
 	blocksound = PLATEHIT
 	drop_sound = 'sound/foley/dropsound/chain_drop.ogg'
 	max_integrity = 200
