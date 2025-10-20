@@ -582,7 +582,7 @@
 	icon_state = "hatanga"
 	item_state = "hatanga"
 	armor = list("blunt" = 90, "slash" = 30, "stab" = 40, "piercing" = 60, "fire" = 0, "acid" = 0)
-	prevent_crits = list(BCLASS_STAB, BCLASS_BLUNT, BCLASS_SMASH, BCLASS_PICK, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_STAB, BCLASS_BLUNT, BCLASS_SMASH, BCLASS_PICK,)
 	max_integrity = 300
 	sellprice = 100
 
@@ -710,7 +710,7 @@
 	icon_state = "bliaut"
 	color = null
 	armor = ARMOR_SPELLSINGER
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB,)
 	blocksound = SOFTHIT
 	slot_flags = ITEM_SLOT_ARMOR
 	blade_dulling = DULLING_BASHCHOP
@@ -980,7 +980,7 @@
 	icon_state = "halfplate"
 	item_state = "halfplate"
 	armor = ARMOR_PLATE
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT,)
 	nodismemsleeves = TRUE
 	max_integrity = 500
 	allowed_sex = list(MALE, FEMALE)
@@ -1151,7 +1151,7 @@
 	icon_state = "heartfelt"
 	item_state = "heartfelt"
 	armor = ARMOR_PLATE
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT,)
 	allowed_sex = list(MALE, FEMALE)
 	nodismemsleeves = TRUE
 	blocking_behavior = null
@@ -1169,7 +1169,7 @@
 	icon_state = "heartfelt_hand"
 	item_state = "heartfelt_hand"
 	armor = ARMOR_PLATE
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT,)
 	allowed_sex = list(MALE, FEMALE)
 	nodismemsleeves = TRUE
 	blocking_behavior = null
@@ -1232,7 +1232,7 @@
 	blocksound = SOFTHIT
 	body_parts_covered = COVERAGE_ALL_BUT_LEGS
 	armor = ARMOR_PLATE
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT,)
 	allowed_sex = list(MALE, FEMALE)
 	nodismemsleeves = TRUE
 	max_integrity = 350
@@ -1488,7 +1488,7 @@
 	desc = "Woven by song and tool of the oldest elven druids. It still creaks and weeps with forlorn reminiscence of a bygone era. It looks like only Elves can fit in it."
 	allowed_race = list(/datum/species/elf/wood, /datum/species/human/halfelf, /datum/species/elf/dark, /datum/species/elf)
 	armor = list("blunt" = 100, "slash" = 20, "stab" = 130, "piercing" = 40, "fire" = 0, "acid" = 0)
-	prevent_crits = list(BCLASS_BLUNT, BCLASS_TWIST, BCLASS_PICK, BCLASS_SMASH)
+	prevent_crits = list(BCLASS_BLUNT, BCLASS_PICK, BCLASS_SMASH)
 	body_parts_covered = COVERAGE_FULL
 	icon = 'icons/roguetown/clothing/special/race_armor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/race_armor.dmi'
@@ -1622,7 +1622,7 @@
 	armor = ARMOR_PLATE_GOOD
 	body_parts_covered = COVERAGE_ALL_BUT_LEGS
 	max_integrity = 500
-	prevent_crits = list(BCLASS_BLUNT, BCLASS_TWIST, BCLASS_PICK, BCLASS_SMASH, BCLASS_CUT, BCLASS_CHOP)
+	prevent_crits = list(BCLASS_BLUNT, BCLASS_PICK, BCLASS_SMASH, BCLASS_CUT, BCLASS_CHOP)
 	
 /obj/item/clothing/suit/roguetown/armor/captain/lordcolor(primary,secondary)
 	detail_color = primary
@@ -1649,7 +1649,7 @@
 	blocksound = PLATEHIT
 	drop_sound = 'sound/foley/dropsound/chain_drop.ogg'
 	armor = list("blunt" = 70, "slash" = 85, "stab" = 60, "piercing" = 60, "fire" = 25, "acid" = 0) //Slightly above carapace cuirass
-	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_TWIST)
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT,)
 	max_integrity = 225
 	allowed_sex = list(MALE, FEMALE)
 	var/do_sound = TRUE
